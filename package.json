@@ -1,0 +1,35 @@
+{
+  "name": "react_redux_sudoku",
+  "version": "1.0.1",
+  "description": "Sudoku written in React and Redux",
+  "scripts": {
+    "start": "node server.js && npm run lite",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\"",
+    "lite": "lite-server"
+  },
+  "author": "Elina Saanvi <lyod.knyazh@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-core": "^6.0.20",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "http-server": "^0.12.3",
+    "lite-server": "^2.6.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "lodash": "^4.0.0",
+    "react": "^0.14.5",
+    "react-addons-css-transition-group": "^0.14.5",
+    "react-dom": "^0.14.0",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.3"
+  }
+}
